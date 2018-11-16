@@ -11,6 +11,11 @@ for month in range(12):
     income = float(input())
     annual_income += income
 print(annual_income)
+subj_1 = "Если вы один субъект, то введите 1,"
+subj_2 = "если вы супружеская пара, то введите 2,"
+subj_3 = "если вы родитель-одиночка, то введите 3:"
+print(subj_1,subj_2,subj_3)
+vvod = int(input())
 if  vvod == 1:
     D1 = 0
     D2 = 9076
@@ -35,5 +40,6 @@ else:
     D5 = 206601
     D6 = 405101
     D7 = 432201
+if vvod =
 
 

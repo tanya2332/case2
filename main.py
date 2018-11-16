@@ -3,7 +3,7 @@ Developers:
 Kartashova A.,Lorents T., Taranetz D.
 
 """
-
+import local.py
 # string constants
 name_month = [JAN, FAB, MAR, APR, MAY, JUN, JUL, AUG, SEP, OCT, NOV, DEC]
 annual_income = 0
@@ -12,9 +12,9 @@ for month in range(12):
     income = float(input())
     annual_income += income
 print(annual_income)
-subj_1 = "Если вы один субъект, то введите 1,"
-subj_2 = "если вы супружеская пара, то введите 2,"
-subj_3 = "если вы родитель-одиночка, то введите 3:"
+subj_1 = local.one_subj
+subj_2 = local.married
+subj_3 = local.single_parent
 print(subj_1,subj_2,subj_3)
 familystatus = int(input())
 if  familystatus == 1:

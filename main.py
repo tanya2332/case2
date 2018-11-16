@@ -1,6 +1,6 @@
 """Case-study #2 My first code "Progressive taxation"
 Developers:
-Kartashova A.,Lorents T., Taranets D.
+Kartashova A. - 45%,Lorents T. - 40%, Taranets D. - 15%
 """
 import local
 # Enter revenue by month

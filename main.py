@@ -2,6 +2,8 @@
 Developers:
 Kartashova A.,Lorents T., Taranetz D.
 
+"""
+
 # string constants
 name_month = [JAN, FAB, MAR, APR, MAY, JUN, JUL, AUG, SEP, OCT, NOV, DEC]
 annual_income = 0

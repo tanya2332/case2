@@ -3,7 +3,8 @@ Developers:
 Kartashova A.,Lorents T., Taranets D.
 """
 import local
-# Ввод доходов по месяцам
+# Enter revenue by month
+
 jan = int(input(local.january))
 feb = int(input(local.february))
 mar = int(input(local.march))
@@ -18,7 +19,7 @@ nov = int(input(local.november))
 dec = int(input(local.december))
 annual_income = jan + feb + mar + apr + may + jun + jul + aug + sep + okt + nov + dec
 
-# Ввод статуса
+# Enter the martial status
 
 subj_1 = local.one_subj
 subj_2 = local.married
@@ -26,7 +27,7 @@ subj_3 = local.single_parent
 print(subj_1,subj_2,subj_3)
 familystatus = int(input())
 
-# Процент налогов
+# Tax percentage
 
 Sn1 = 0.10
 Sn2 = 0.15
@@ -36,7 +37,7 @@ Sn5 = 0.33
 Sn6 = 0.35
 Sn7 = 0.396
 
-# Расчет налогов
+# Calculation of taxes
 
 if  familystatus == 1:
     D1 = 0

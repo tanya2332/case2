@@ -1,6 +1,6 @@
 """Case-study #2 My first code "Progressive taxation"
 Developers:
-Kartashova A.,Lorents T.
+Kartashova A.,Lorents T., Taranetz D.
 
 # string constants
 name_month = [JAN, FAB, MAR, APR, MAY, JUN, JUL, AUG, SEP, OCT, NOV, DEC]
